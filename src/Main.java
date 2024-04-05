@@ -9,6 +9,8 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         FindMin findMin = new FindMin();
+        FindAvg findAvg = new FindAvg();
         System.out.println("Minimum from the array is: " + findMin.findMin(arr));
+        System.out.println("Average value from the arrays is: " + findAvg.findAvg(arr));
     }
 }
