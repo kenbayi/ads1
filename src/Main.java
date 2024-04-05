@@ -6,12 +6,14 @@ public class Main {
         FindMin findMin = new FindMin(); //calling class to use method find minimum
         FindAvg findAvg = new FindAvg(); //calling class to use method find average
         Factorial factorial = new Factorial(); //calling class to use method factorial
+        Fibonacci fibonacci = new Fibonacci(); //calling class to use method fibonacci
         Scanner sc = new Scanner(System.in);
 
         //to test 3rd and 4th task
         int num = sc.nextInt();
         System.out.println("The number is " + ((isPrime.isPrime(num)) ? "Prime" : "Composite"));
         System.out.println("The factorial is " + factorial.factorial(num));
+        System.out.println("Fibonacci sequence value is " + fibonacci.fibonacci(num));
 
         //to test 1st and 2nd task
         int n = sc.nextInt();
