@@ -10,7 +10,13 @@ public class Main {
         Fibonacci fibonacci = new Fibonacci(); //calling class to use method fibonacci
         ReverseArray reverse = new ReverseArray(); //calling class to use method reverseArr
         Power power = new Power(); //calling class to use method power
+        DigitChecker digitChecker = new DigitChecker(); //calling class to use method isDigits
+
         Scanner sc = new Scanner(System.in);
+        //to test 8th task
+        String words = sc.next();
+        System.out.println("Is all digits?: " + digitChecker.isDigits(words));
+        //to test 6th task
         int a, b;
         a = sc.nextInt();
         b = sc.nextInt();
@@ -21,7 +27,7 @@ public class Main {
         System.out.println("The factorial is: " + factorial.factorial(num));
         System.out.println("Fibonacci sequence value is: " + fibonacci.fibonacci(num));
 
-        //to test 1st and 2nd task
+        //to test 1st, 2nd and 7th task
         int n = sc.nextInt();
 
         //declaring array and input numbers to array
