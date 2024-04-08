@@ -9,8 +9,12 @@ public class Main {
         Factorial factorial = new Factorial(); //calling class to use method factorial
         Fibonacci fibonacci = new Fibonacci(); //calling class to use method fibonacci
         ReverseArray reverse = new ReverseArray(); //calling class to use method reverseArr
+        Power power = new Power(); //calling class to use method power
         Scanner sc = new Scanner(System.in);
-
+        int a, b;
+        a = sc.nextInt();
+        b = sc.nextInt();
+        System.out.println("The power: " + power.power(a, b));
         //to test 3rd and 4th task
         int num = sc.nextInt();
         System.out.println("The number is: " + ((isPrime.isPrime(num)) ? "Prime" : "Composite"));
