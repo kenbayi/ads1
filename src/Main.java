@@ -12,7 +12,16 @@ public class Main {
         Power power = new Power(); //calling class to use method power
         DigitChecker digitChecker = new DigitChecker(); //calling class to use method isDigits
         BinomialCoefficient binomialCoefficient = new BinomialCoefficient(); //calling class to use method calculation
+        GreatestCommonDivisor gcd = new GreatestCommonDivisor(); //calling class to use method calculateGCD
         Scanner sc = new Scanner(System.in);
+
+        //to test 10th task
+        int g, h;
+        g = sc.nextInt();
+        h = sc.nextInt();
+        System.out.println("GCD is: " + gcd.calculateGCD(g, h));
+
+        //to test 9th task
         int q, s;
         q = sc.nextInt();
         s = sc.nextInt();
