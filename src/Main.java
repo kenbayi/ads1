@@ -11,8 +11,12 @@ public class Main {
         ReverseArray reverse = new ReverseArray(); //calling class to use method reverseArr
         Power power = new Power(); //calling class to use method power
         DigitChecker digitChecker = new DigitChecker(); //calling class to use method isDigits
-
+        BinomialCoefficient binomialCoefficient = new BinomialCoefficient(); //calling class to use method calculation
         Scanner sc = new Scanner(System.in);
+        int q, s;
+        q = sc.nextInt();
+        s = sc.nextInt();
+        System.out.println("Binomial Coefficient is: " + binomialCoefficient.calculateCoefficient(q, s));
         //to test 8th task
         String words = sc.next();
         System.out.println("Is all digits?: " + digitChecker.isDigits(words));
